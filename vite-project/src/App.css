@@ -1,0 +1,25 @@
+/* styles.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.background-main{
+    
+    background: linear-gradient(113deg, #FFF 0.28%, rgb(99, 91, 91) 100%);
+}
+
+/* *{
+    border: 1px solid red;
+} */
+
+@layer utilities{
+    .h-custom {
+        height: 62px;
+    }
+}
+
+
+
+.rounded-custom{
+    border-radius: 40px;
+}
