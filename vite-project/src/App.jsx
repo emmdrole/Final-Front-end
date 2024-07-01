@@ -380,7 +380,7 @@ useEffect(()=>{
     
     <>
     <div className='background-main'>
-    <div className='h-screen pl-20 pr-20 flex flex-col pt-10'>
+    <div className='h-auto  pl-20 pr-20 flex flex-col pt-10'>
      <Nav 
        setCity={setCity}
      />

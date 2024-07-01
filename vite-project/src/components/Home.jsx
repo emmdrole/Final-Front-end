@@ -14,8 +14,8 @@ const Home = ({ cityName,cityCurrentTemp,tempfeelslike,sunrise,sunset,humidityle
 
 
   return (
-    <div className='h-screen '>
-      <div className='flex mt-14 justify-between gap-10'>
+    <div className='h-screen'>
+      <div className='flex xl:flex-row mt-14 justify-between gap-10'>
       <DateInfo 
          cityName={cityName}
          date = {date}

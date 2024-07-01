@@ -8,6 +8,10 @@
     background: linear-gradient(113deg, #FFF 0.28%, rgb(99, 91, 91) 100%);
 }
 
+*{
+    background-color:linear-gradient(113deg, #FFF 0.28%, rgb(99, 91, 91) 100%) ;
+}
+
 /* *{
     border: 1px solid red;
 } */

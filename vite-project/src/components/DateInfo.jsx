@@ -8,8 +8,8 @@ const DateInfo = ({cityName,date,time}) => {
         </div>
 
         <div className='text-center'>
-        <p className='text-[6rem] font-bold'>{time}</p>
-        <p className='font-normal text-[1.25rem]'>{date}</p>
+        <p className='xl:text-[6rem] lg:text-[5.5rem] md:text-[5.2rem] sm:text-[4.4rem] font-bold'>{time}</p>
+        <p className='font-normal xl:text-[1.25rem] lg:text-[1rem] '>{date}</p>
         </div>
 
         
